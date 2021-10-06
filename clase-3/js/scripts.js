@@ -69,7 +69,7 @@ al estudiante que tiene a su lado`;
     */
 
 // Ejercicio 5
-
+/*
 let result = function () {
 let firstWord = prompt(`Por favor inserte  sólo una palabra`)
 let secondWord = prompt(`Por favor inserte otra palabra`)
@@ -87,3 +87,23 @@ else if (firstWord == secondWord) {
 }
 }
 console.log(result())
+*/
+function palabraLarga(texto){
+    textoNuevo=texto.split(" ");
+
+        if(textoNuevo[0].length > textoNuevo[1].length){
+            console.log(textoNuevo[0]);
+        }
+        else if (textoNuevo[0].length < textoNuevo[1].length){
+            console.log(textoNuevo[1]);
+        }
+        else if (textoNuevo[0].length == textoNuevo[1].length){
+            console.log('las palabras tienen la misma extensión')
+        } else {
+            console.log(`Error, intèntelo de nuevo`)
+        }
+        
+    }
+
+let palabras = prompt("Ingresa una frase de dos palabras: ");
+palabraLarga(palabras);
