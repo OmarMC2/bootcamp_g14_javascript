@@ -27,7 +27,7 @@ if (index % 2 == 0) {
  }
  console.log(Ejercicio2())
 */
-
+/*
 // Ejercicio 3
 
 let sumadorDeDigitos = function (numero) {
@@ -48,5 +48,17 @@ let sumadorDeDigitos = function (numero) {
 }
 console.log(sumadorDeDigitos())
 
+*/
 
+function multiply(a, b){
+    a = 1
+    b = 2
+      return a * b
+     
+   }
+   console.log(multiply())
+   for (let index = 0; index < array.length; index++) {
+       const element = array[index];
+       
+   }
 
